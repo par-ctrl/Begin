@@ -1,0 +1,1 @@
+This repository contains all the mini-projects I created while learning web development
