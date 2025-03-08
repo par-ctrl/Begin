@@ -1,1 +1,2 @@
 # odin-recipes
+In this project, I demonstrated a basic understanding of how to use common HTML elements. I created a website consisting of multiple web pages, including an index page that serves as the homepage and three web pages for three recipes. I utilized the elements I learned in The Odin Project, such as the structure of an HTML boilerplate and how to create headings, paragraphs, and lists.
