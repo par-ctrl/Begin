@@ -137,6 +137,120 @@
             </tr>
         </tfoot>
     </table>
+
+    <h1>Race Registration!</h1>    
+    <form action="">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" name="firstname" id="first" placeholder="First Name" required>
+            <label for="last">Last Name</label>
+            <input type="text" name="lastname" id="last" placeholder="Last Name" required>
+        </div>
+    
+            <p>Select a Race:</p>
+            <div>
+            <input type="radio" name="race" id="funrun" value="funrun">
+            <!-- don't use number for id-->
+            <label for="funrun">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="half" value="half">
+            <label for="half">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="full" value="full">
+            <label for="full">Full Marathon</label>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+
+        <div>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option disabled selected>Select Age Group</option>
+                <option value="kids">Under 18</option>
+                <option value="ya">18-30</option>
+                <option value="adults">30-50</option>
+                <option value="seniors">50+</option>
+            </select>
+        </div>
+        <button>Register</button>
+    </form>
+
+    <table>
+        <caption>Our Pets</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Nora</th>
+                <td>5</td>
+                <td>Dog</td>
+            </tr>
+            <tr>
+                <th scope="row">Gino</th>
+                <td>2</td>
+                <td>Cat</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Our Pets</caption>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="2">Dogs</th>
+                <td>Nora</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Gino</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="2">Cats</th>
+                <td>Lulu</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Elizabeth</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    <div role="tablist" aria-label="Football Match Dashboard">
+        <button
+          role="tab"
+          aria-selected="true"
+          aria-controls="match-info-panel"
+          id="match-info-tab">
+            Match Info
+        </button>
+     
+        <button
+          role="tab"
+          aria-selected="false"
+          aria-controls="player-stats-panel"
+          id="player-stats-tab">
+          Player Stats
+        </button>
+     </div>
 </body>
 
 </html>
